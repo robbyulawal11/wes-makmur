@@ -10,8 +10,8 @@
         </div>
         <div class="form-group">
             <label>Isi</label>
-            <input type="text" class="form-control @error('isi') is-invalid @enderror" name="isi"
-                value="{{ old('isi') }}">
+            <textarea rows="25" cols="20" type="text" class="form-control @error('isi') is-invalid @enderror"
+                name="isi" value="{{ old('isi') }}"></textarea>
         </div>
         <div class="form-group">
             <label>Kategori</label>
@@ -23,6 +23,6 @@
 
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-success">Submit</button>
     </form>
 @endsection

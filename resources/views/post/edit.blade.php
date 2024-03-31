@@ -11,8 +11,8 @@
         </div>
         <div class="form-group">
             <label>Isi</label>
-            <input type="text" class="form-control @error('isi') is-invalid @enderror" name="isi"
-                value="{{ $data->isi }}">
+            <textarea rows="25" cols="20" type="text" class="form-control @error('isi') is-invalid @enderror"
+                name="isi">{{ $data->isi }}</textarea>
         </div>
         <div class="form-group">
             <label>Kategori</label>

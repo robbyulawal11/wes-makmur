@@ -14,6 +14,6 @@
             <input type="text" class="form-control @error('descKatrgori') is-invalid @enderror" name="descKatrgori"
                 value="{{ $data->descKatrgori }}">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-success">Submit</button>
     </form>
 @endsection

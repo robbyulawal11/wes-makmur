@@ -12,10 +12,10 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav me-auto">
                 <li class="nav-item"><a class="nav-link" href="/">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link" href="/produk">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="/produk">Produk</a></li>
                 @auth
-                    <li class="nav-item"><a class="nav-link" href="/post">New Post</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/kategori">New Category</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/post">Post</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/kategori">Kategori</a></li>
                 @endauth
             </ul>
             <!-- Right Side Of Navbar -->
